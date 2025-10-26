@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Turtlebot SBC
+source /opt/ros/humble/setup.bash
+source ~/turtlebot3_ws/install/setup.bash
 
 # Setup ROS_DOMAIN_ID
 export ROS_DOMAIN_ID=30
