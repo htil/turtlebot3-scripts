@@ -24,7 +24,8 @@ Startup bringup
 
 ```bash
 # Startup bring up program
-~/scripts/startup.sh
+/turtlebot3/startup_turtlebot3.sh
+/remote/startup_remote.sh
 ```
 
 ~/.bashrc exports 
