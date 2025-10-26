@@ -1,0 +1,11 @@
+[Unit]
+Description=Turtlebot3 Startup Command
+After=network.target
+
+[Service]
+ExecStart=/home/csc/turtlebot3-scripts/turtlebot3/startup_turtlebot3.sh
+Restart=no
+User=csc
+
+[Install]
+WantedBy=multi-user.target
