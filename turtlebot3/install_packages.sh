@@ -1,7 +1,6 @@
 #!/bin/bash
 
 source /opt/ros/humble/setup.bash
-source /home/csc/turtlebot3_ws/install/setup.bash
 export LDS_MODEL=LDS-01
 sudo apt install python3-argcomplete python3-colcon-common-extensions libboost-system-dev build-essential
 sudo apt install ros-humble-hls-lfcd-lds-driver
@@ -20,6 +19,7 @@ echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 echo 'export LDS_MODEL=LDS-01' >> ~/.bashrc
 echo 'source /home/csc/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
 colcon build --symlink-install --parallel-workers 1
+source /home/csc/turtlebot3_ws/install/setup.bash
 #sudo cp `ros2 pkg prefix turtlebot3_bringup`/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
