@@ -5,7 +5,7 @@ source /opt/ros/humble/setup.bash
 source /home/csc/turtlebot3_ws/install/setup.bash
 
 # Setup ROS_DOMAIN_ID
-export ROS_DOMAIN_ID=31
+export ROS_DOMAIN_ID=32
 export LDS_MODEL=LDS-01
 
 # ROS Middleware

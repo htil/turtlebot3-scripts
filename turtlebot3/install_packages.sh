@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source /opt/ros/humble/setup.bash
-export LDS_MODEL=LDS-01
+#export LDS_MODEL=LDS-01
 sudo apt install python3-argcomplete python3-colcon-common-extensions libboost-system-dev build-essential
 sudo apt install ros-humble-hls-lfcd-lds-driver
 sudo apt install ros-humble-turtlebot3-msgs
